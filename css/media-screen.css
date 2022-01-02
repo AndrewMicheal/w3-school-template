@@ -1,0 +1,184 @@
+@media (max-width: 576px) {
+  /* Start Header */
+  header nav ul {
+    width: 75%;
+  }
+  /* End Header */
+  /******************** Start About ***********************/
+  .about-items-container {
+    width: 100%;
+  }
+  .about-items {
+    display: block;
+  }
+  .about-item {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto 30px;
+    padding: 15px 5px 5px;
+  }
+  .about-content-items {
+    display: block;
+  }
+  .about-content-item {
+    width: 100%;
+  }
+  .about-content-item-desc {
+    width: 95%;
+    line-height: 1.5;
+  }
+  /********************* End About **********************/
+
+  /********************* Start Team *********************/
+  .team-items {
+    display: block;
+  }
+  .team-item {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .counter {
+    position: relative;
+    padding: 10rem;
+  }
+  .counter-content {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+  .team-counter-item {
+    margin-bottom: 2rem;
+  }
+  /********************* End Team ***********************/
+
+  /********************* Start Work *********************/
+  .work-items,
+  .work-images-items {
+    display: block;
+  }
+  .item-image,
+  .work-item-image {
+    width: 100%;
+  }
+  .work-item-image,
+  .item-image {
+    margin-bottom: 2rem;
+  }
+  .skills-content {
+    display: block;
+  }
+  .skill-item {
+    width: 100%;
+  }
+  .hobbies {
+    width: 100%;
+    padding-left: 0rem;
+  }
+  /********************* End Work ***********************/
+
+  /********************* Start Pricing *******************/
+  .pricing-items {
+    display: block;
+  }
+  .pricing-item,
+  .pricing-item-pro {
+    width: 100%;
+  }
+  .sign-up {
+    background-color: #000;
+    border: none;
+    padding: 15px;
+    width: 30%;
+    cursor: pointer;
+  }
+  /********************* End Pricing *********************/
+
+  /********************* Start Footer *******************/
+  footer .button button {
+    width: 30%;
+  }
+  /********************* End Footer *******************/
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  /******************************* Start About ******************************/
+  .about-items {
+    display: flex;
+  }
+  .about-item {
+    width: calc((100% / 2) - 4%);
+    margin-bottom: 2rem;
+  }
+  .about-content-items {
+    display: block;
+  }
+  .about-content-item {
+    width: 100%;
+  }
+  /******************************* End About ********************************/
+
+  /********************* Start Team *********************/
+  .team-items {
+    display: flex;
+  }
+  .team-item {
+    width: calc(100% / 2 - 1%);
+    margin-bottom: 3rem;
+  }
+  /********************* End Team ***********************/
+
+  /********************* Start Work *********************/
+  .work-items,
+  .work-images-items {
+    display: block;
+  }
+  .item-image,
+  .work-item-image {
+    width: 100%;
+  }
+  .work-item-image,
+  .item-image {
+    margin-bottom: 2rem;
+  }
+  .skills-content {
+    display: block;
+  }
+  .skill-item {
+    width: 100%;
+  }
+  .hobbies {
+    width: 100%;
+    padding-left: 0rem;
+  }
+  /********************* End Work ***********************/
+
+  /********************* Start Pricing *******************/
+  .pricing-items {
+    display: block;
+  }
+  .pricing-item,
+  .pricing-item-pro {
+    width: 100%;
+  }
+  .sign-up {
+    background-color: #000;
+    border: none;
+    padding: 15px;
+    width: 30%;
+    cursor: pointer;
+  }
+  /********************* End Pricing *********************/
+
+  /********************* Start Footer *******************/
+  footer .button button {
+    width: 30%;
+  }
+  /********************* End Footer *******************/
+}
